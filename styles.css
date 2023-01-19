@@ -1,0 +1,41 @@
+*{
+    margin:0;
+}
+html{
+    height:100%
+}
+body{
+    background-color: rgb(172, 255, 227);
+    font-family:'Roboto', sans-serif;
+    min-height: 100%;
+}
+
+#title{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+#websiteName{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#settings{
+    display:flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.grid-container
+{
+    border: 2px solid red;
+    display:grid;
+    margin-left: auto;
+    margin-right:auto;
+    width:420px;
+    height:420px;
+}
